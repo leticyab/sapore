@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="0dp"
+    android:background="@drawable/fundo"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="345dp"
+            android:orientation="vertical" >
+
+         
+
+            <Button
+                android:id="@+id/btnPedidoMain"
+                style="@style/MainBtnPedido"
+                android:layout_width="162dp"
+                android:layout_height="42dp"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_marginTop="175dp"
+                android:text="@string/btnped" />
+
+            <Button
+                android:id="@+id/btnPedBebidaMain"
+                style="@style/MainBtnPedido"
+                android:layout_width="164dp"
+                android:layout_height="44dp"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_marginTop="5dp"
+                android:text="@string/btncadbebida" />
+
+            <Button
+                android:id="@+id/btnMesaMain"
+                style="@style/MainBtnPedido"
+                android:layout_width="169dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_marginTop="5dp"
+                android:height="45dp"
+                android:text="@string/btnMesaMain" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
